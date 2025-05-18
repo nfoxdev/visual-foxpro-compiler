@@ -1,16 +1,19 @@
 {
   "name": "visual-foxpro-compiler",
   "displayName": "Visual Foxpro Prg compiler",
-  "description": "Compiles your prg on save",
-  "version": "1.0.0",
+  "description": "Automatically compiles prg files on save",
+  "version": "1.0.2",
   "publisher": "nFox",
   "author": "Marco Plaza",
   "icon": "images/nfoxLogo.png",
   "engines": {
     "vscode": "^1.85.0"
   },
+  "os": [
+    "win32"
+  ],
   "categories": [
-    "Other"
+    "Programming Languages"
   ],
   "activationEvents": [
     "onLanguage:foxpro"
