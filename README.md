@@ -3,7 +3,7 @@
 
 Compiles Visual FoxPro .prg files automatically on save
 
-Please make a donation to fuel new development!
+Please make a donation to fuel the development of new FoxPro extensions for VS Code!
 
 ![Donate using PayPal](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png)
 
