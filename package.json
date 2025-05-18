@@ -1,0 +1,62 @@
+{
+  "name": "visual-foxpro-compiler",
+  "displayName": "Visual Foxpro Prg compiler",
+  "description": "Compiles your prg on save",
+  "version": "1.0.0",
+  "publisher": "nFox",
+  "author": "Marco Plaza",
+  "icon": "images/nfoxLogo.png",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:foxpro"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "foxpro",
+        "extensions": [
+          ".prg"
+        ],
+        "aliases": [
+          "Visual FoxPro",
+          "FoxPro"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nfoxdev/visual-foxpro-compiler.git"
+  },
+  "main": "./out/extension.js",
+  "keywords": [
+    "foxpro",
+    "vfp",
+    "compiler"
+  ],
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/parser": "^7.11.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.4.0"
+  }
+}
