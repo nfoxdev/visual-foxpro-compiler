@@ -2,8 +2,12 @@
 
 All notable changes to the "visual-foxpro-compiler" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [1.0.4]
+
+- Throw compilation error if cannot create fxp file
+
 
 ## [Unreleased]
 
 - Initial release
+

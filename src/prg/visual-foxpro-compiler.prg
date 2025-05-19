@@ -14,7 +14,7 @@ try
   endif    
 
 catch to oerror
-
+  strtofile(strconv(oerror.message,9),m.errfile)
 endtry
 
 
