@@ -2,7 +2,7 @@
   "name": "visual-foxpro-compiler",
   "displayName": "Visual Foxpro Prg compiler",
   "description": "Automatically compiles prg files on save",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "publisher": "nFox",
   "author": "Marco Plaza",
   "icon": "images/nfoxLogo.png",
@@ -33,7 +33,7 @@
       }
     ]
   },
-  "homepage": "https://github.com/nfoxdev/visual-foxpro-compiler/readme.md",
+  "homepage": "https://github.com/nfoxdev",
   "repository": {
     "type": "git",
     "url": "https://github.com/nfoxdev/visual-foxpro-compiler.git"
